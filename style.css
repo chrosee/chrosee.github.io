@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600&display=swap');
+
+* {
+box-sizing: border-box;
+margin: 0 auto;
+    }
+
+html {
+scroll-behavior: smooth;
+}
+
+body{
+background-color: #FFFDF4;
+font-family: 'Inknut Antiqua';
+}
+
+div.wrap {
+width: 1280px;
+margin: 20px auto;
+}
+
+header {
+padding: 0px 30px;
+display: flex;
+align-items: center;
+margin-top: -20px;
+}
+
+header a {
+color: black;
+text-decoration: none;
+}
+
+header h1 {
+margin-right: auto;
+}
+
+header.fixed {
+background-color: #FFFDF4;
+position: fixed;
+width: 1280px;
+height: 100px;
+}
+
+ul.menu {
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+gap: 10px;
+}
+
+ul.menu a {
+padding: 10px 20px;
+}
+
+ul.menu a:hover {
+color: grey;
+text-decoration: underline;
+}
+
+div.banner{
+background-image: url(image/2nine-koepfer-OZiflZqq0N0-unsplash.jpg);
+background-size: cover;
+height: 450px;
+margin-bottom: 20px;
+}
+
+div.card {
+width: 500px;
+background-color: #F4F2EC;
+border-radius: 20px;
+overflow: hidden;
+margin-bottom: 20px;
+}
+
+div.image {
+width: 100%;
+height: 300px;
+color: #ffffff;
+text-align: center;
+font-size: 60px;
+background-size: cover;
+line-height: 100%;
+text-shadow: 2px 2px 5px gray;
+padding-top: 120px;
+}
+    
+div.desc {
+padding: 20px 20px;
+line-height: 130%;
+height: 200px;
+font-size: 20px;
+}
+
+div.link {
+background-color: #ffffff;
+font-size: 15px;
+font-weight: 400;
+text-align: center;
+border: 3px solid #E4DDD3;
+border-radius: 20px;
+margin-bottom: 20px;
+width: 480px;
+height: 40px;
+}
+
+div.link a {
+color:black;
+text-decoration: none;
+}
+
+div.link a:hover {
+color: darkolivegreen;
+}
+
+div.wabisabi .image {
+background-image: url(image/wabi\ sabi\ japanese.jpg);
+}
+div.modern .image {
+background-image: url(image/modern.jpg);
+}
+div.scandi .image {
+background-image: url(image/2Scandi.jpeg);
+}
+div.rustic .image {
+background-image: url(image/2Rustic.jpg);
+}
+div.vintage .image {
+background-image: url(image/2vintage.jpg);
+}
+div.industrial .image {
+background-image: url(image/2industrial.jpg);
+}
+
+section {
+display: flex;
+gap: 20px;
+padding-left: 10px;
+}
+
+a.top {
+color: black;
+display: block;
+width: 40px;
+height: 40px;
+text-align: center;
+text-decoration: none;
+border-radius: 40px;
+border: 1px solid #E4DDD3;
+background-color: white;
+position: fixed;
+bottom: 30px;
+right: 30px;
+z-index: 999;
+}
+
+footer {
+color: #8B8C89;
+background-color: #F9F7F3;
+text-align: center;
+}
